@@ -21,11 +21,13 @@
 
 body {
   /* background: var(--background); */
-  background-image: url("/purrcoin-bg.jpg");
-  background-size: cover;
+  /* background-image: url("/assets/omg-bg_Masked.svg"); */
+
+  /* background-image: url("/purrcoin-bg.jpg"); */
+  /* background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }

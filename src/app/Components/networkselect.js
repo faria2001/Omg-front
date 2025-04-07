@@ -65,7 +65,7 @@ const NetworkSelection = () => {
             </span>
             {/* </div> */}
           </div>
-          <button className="cursor-pointer py-2 text-[20px]  text-white font-bold px-4 rounded-[30px] text-center items-center bg-gradient-to-r from-teal-500 shadow-glow to-[#6BFFFF] backdrop-blur-lg ">
+          <button className="cursor-pointer py-2 text-[15px] sm:text-[20px]  text-white font-bold px-4 rounded-[30px] text-center items-center bg-gradient-to-r from-teal-500 shadow-glow to-[#6BFFFF] backdrop-blur-lg ">
             Connect Wallet
           </button>
         </div>
@@ -73,7 +73,7 @@ const NetworkSelection = () => {
         {/* USDT Section */}
         <div className="grid grid-rows gap-2.5">
           <div className="bg-gradient-to-r from-teal-500 shadow-glow to-[#6BFFFF] py-2 backdrop-blur-lg  rounded-[30px] flex items-center gap-1 px-4">
-            <Image src={"/assets/eth1.svg"} height={30} width={30} alt="" />
+            <Image src={"/assets/usdt1.svg"} height={30} width={30} alt="" />
             <span className="text-white font-bold text-[20px]">USDT</span>
             {/* <span className="text-white font-bold text-[16px]">
               Pay with ETH
@@ -105,16 +105,11 @@ const NetworkSelection = () => {
               placeholder="0"
             />
             <span className="absolute right-2">
-              <Image
-                src={"/assets/usdt1.svg"}
-                alt="Ethereum"
-                width={30}
-                height={30}
-              />
+              <Image src={"/logo.svg"} alt="omg" width={30} height={30} />
             </span>
             {/* </div> */}
           </div>
-          <button className="cursor-pointer py-2 text-[20px]  text-white font-bold px-4 rounded-[30px] text-center items-center bg-gradient-to-r from-teal-500 shadow-glow to-[#6BFFFF] backdrop-blur-lg ">
+          <button className="cursor-pointer py-2 text-[15px] sm:text-[20px]  text-white font-bold px-4 rounded-[30px] text-center items-center bg-gradient-to-r from-teal-500 shadow-glow to-[#6BFFFF] backdrop-blur-lg ">
             Reffereal
           </button>
         </div>

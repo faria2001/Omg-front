@@ -5,16 +5,16 @@ const PurrCoinWarriors = () => {
   return (
     <div className="relative w-full max-w-[1280px] mx-auto h-auto min-h-screen py-10 overflow-hidden">
       {/* Background image container with border radius */}
-      <div className="absolute inset-0 w-full h-full overflow-hidden -z-10">
+      <div className="absolute inset-0 w-full h-full overflow-hidden z-0">
         <div className="relative w-full h-full rounded-xl overflow-hidden">
           <Image
-            src="/warbg.png"
-            alt="PurrCoin background"
+            src="/assets/omg-6.png"
+            alt="Omg background"
             fill
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/30 rounded-xl" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/20 rounded-xl" />
         </div>
       </div>
 
@@ -37,20 +37,19 @@ const PurrCoinWarriors = () => {
             {/* Description box */}
             <div className="bg-gradient-to-r from-[#131313] via-[#201D1E]/70 to-white/10 rounded-xl backdrop-blur-[25px] p-6">
               <p className="text-white text-[16px] md:text-[18px] font-poppins font-bold leading-relaxed">
-                PurrCoin Warriors is your thrilling entry into a multiverse
-                adventure like no other, now accessible through a captivating
-                Telegram game. This dynamic clicker game offers a unique twist
-                that will keep you engaged with quick and engaging tasks
-                designed to challenge and entertain. As you explore mysterious
-                dimensions and overcome exciting challenges, you&apos;ll have
-                the opportunity to earn tokens and collect valuable rewards that
-                enhance your journey. The PurrCoin Warriors game on Telegram not
-                only promises minimal effort for maximum fun but also features a
-                very exciting and attractive airdrop game, allowing players to
-                earn more points and receive exclusive PurrCoin prizes. Get
-                ready to launch and prepare for an unforgettable journey where
-                every click brings you closer to the vast rewards of the
-                PurrCoin universe.
+                OMG Warriors is your thrilling entry into a multiverse adventure
+                like no other, now accessible through a captivating Telegram
+                game. This dynamic clicker game offers a unique twist that will
+                keep you engaged with quick and engaging tasks designed to
+                challenge and entertain. As you explore mysterious dimensions
+                and overcome exciting challenges, you&apos;ll have the
+                opportunity to earn tokens and collect valuable rewards that
+                enhance your journey. The OMG Warriors game on Telegram not only
+                promises minimal effort for maximum fun but also features a very
+                exciting and attractive airdrop game, allowing players to earn
+                more points and receive exclusive OMG prizes. Get ready to
+                launch and prepare for an unforgettable journey where every
+                click brings you closer to the vast rewards of the OMG universe.
               </p>
             </div>
 
@@ -63,7 +62,7 @@ const PurrCoinWarriors = () => {
               <div className="bg-gradient-to-r from-[#131313] via-[#201D1E]/70 to-white/10 rounded-xl backdrop-blur-[25px] p-6">
                 <p className="text-white text-[16px] md:text-[18px] font-poppins font-bold leading-relaxed">
                   In the heart of Starshadow Woods, whispers of a dark power
-                  ripple through ancient trees. The High Seer of the PurrCoin
+                  ripple through ancient trees. The High Seer of the OMG
                   Warriors senses the rise of an ominous force and sends a call
                   to the bravest of each tribe. Under the Light of Evershine,
                   warriors gather from distant peaks and hidden glades, marked
@@ -89,7 +88,7 @@ const PurrCoinWarriors = () => {
             <div className="absolute inset-0 w-full h-full">
               <Image
                 src="/frame2.png"
-                alt="PurrCoin warrior"
+                alt="OMG warrior"
                 fill
                 className="object-contain"
               />
@@ -97,7 +96,7 @@ const PurrCoinWarriors = () => {
             <div className="absolute inset-0 w-full h-full">
               <Image
                 src="/phone.png"
-                alt="PurrCoin warrior closeup"
+                alt="OMG warrior closeup"
                 fill
                 className="object-contain"
               />
