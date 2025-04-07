@@ -8,7 +8,7 @@ const Hero = () => {
       <div className=" w-full h-full gap-10  justify-center flex flex-col">
         {/* image section */}
         <div className=" min-h-[400px] w-full items-center justify-center flex ">
-          <Image src={"/assets/Omg-7.png"} height={400} width={400} alt="" />
+          <Image src={"/assets/omg-7.png"} height={400} width={400} alt="" />
         </div>
         {/* text */}
         <div className="flex gap-2 ml-7 lg:mb-0 mb-3 font-bold  text-white ">
