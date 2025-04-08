@@ -2,28 +2,28 @@ import React from "react";
 
 const NFTCollection = () => {
   return (
-    <div className="relative w-full min-h-screen flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div className="relative w-full flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
       {/* Background layers */}
 
       {/* Content container */}
       <div className="w-full max-w-[1101px] relative z-10 bg-gradient-to-b from-black/30 to-orange/5 rounded-[20px] backdrop-blur-md p-6">
         {/* Title with blur effect */}
         <div className="relative mb-10">
-          <h1 className="text-orange-500 text-4xl sm:text-5xl font-bold font-poppins text-center blur-sm opacity-50">
+          <h1 className="text-[#ffdf20] text-4xl sm:text-5xl font-bold font-poppins text-center blur-sm opacity-50">
             NFT Collection
           </h1>
-          <h1 className="text-orange-500 text-4xl sm:text-5xl font-bold font-poppins text-center absolute top-0 left-0 w-full">
+          <h1 className="text-[#ffdf20] text-4xl sm:text-5xl font-bold font-poppins text-center absolute top-0 left-0 w-full">
             NFT Collection
           </h1>
         </div>
 
         {/* Description */}
         <p className="text-white text-base sm:text-lg lg:text-xl font-bold font-poppins text-center mb-10 leading-relaxed px-4 sm:px-8">
-          PurrNFT aims to be a leading NFT marketplace within the OhMyGod
+          PurrNFT aims to be a leading NFT marketplace within the PurrCoin
           ecosystem,
           <br />
-          leveraging the popularity of OhMyGod characters and community. It will
-          connect
+          leveraging the popularity of PurrCoin characters and community. It
+          will connect
           <br />
           creators and collectors, showcasing work in a<br />
           vibrant digital economy.
@@ -36,14 +36,14 @@ const NFTCollection = () => {
             <img
               className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
               src="nft1.png"
-              alt="OhMyGod NFT"
+              alt="PurrCoin NFT"
             />
             <h3 className="text-white text-lg font-bold font-poppins mb-4">
-              OhMyGod NFT
+              PurrCoin NFT
             </h3>
             <p className="text-white text-sm font-normal font-poppins text-center mb-8 leading-relaxed">
               To see the collection, click on the link below and enter Clash Of
-              OhMyGod NFT Collection On Opensea Marketplace.
+              PurrCoin NFT Collection On Opensea Marketplace.
             </p>
             <button className="w-full max-w-[256px] h-9 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-[30px] flex items-center justify-center hover:from-orange-500 hover:to-yellow-500 transition-all shadow-lg hover:shadow-orange-400/20">
               <span className="text-white text-sm font-bold font-poppins">
@@ -58,14 +58,14 @@ const NFTCollection = () => {
             <img
               className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
               src="nft2.png"
-              alt="OhMyGod NFT"
+              alt="PurrCoin NFT"
             />
             <h3 className="text-white text-lg font-bold font-poppins mb-4">
-              OhMyGod NFT
+              PurrCoin NFT
             </h3>
             <p className="text-white text-sm font-normal font-poppins text-center mb-8 leading-relaxed">
               To see the collection, click on the link below and enter Clash Of
-              OhMyGod NFT Collection On Opensea Marketplace.
+              PurrCoin NFT Collection On Opensea Marketplace.
             </p>
             <button className="w-full max-w-[256px] h-9 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-[30px] flex items-center justify-center hover:from-orange-500 hover:to-yellow-500 transition-all shadow-lg hover:shadow-orange-400/20">
               <span className="text-white text-sm font-bold font-poppins">
@@ -79,14 +79,14 @@ const NFTCollection = () => {
             <img
               className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
               src="nft3.png"
-              alt="OhMyGod NFT"
+              alt="PurrCoin NFT"
             />
             <h3 className="text-white text-lg font-bold font-poppins mb-4">
-              OhMyGod NFT
+              PurrCoin NFT
             </h3>
             <p className="text-white text-sm font-normal font-poppins text-center mb-8 leading-relaxed">
               To see the collection, click on the link below and enter Clash Of
-              OhMyGod NFT Collection On Opensea Marketplace.
+              PurrCoin NFT Collection On Opensea Marketplace.
             </p>
             <button className="w-full max-w-[256px] h-9 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-[30px] flex items-center justify-center hover:from-orange-500 hover:to-yellow-500 transition-all shadow-lg hover:shadow-orange-400/20">
               <span className="text-white text-sm font-bold font-poppins">

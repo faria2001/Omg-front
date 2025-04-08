@@ -48,7 +48,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <button className="bg-gradient-to-r cursor-pointer from-yellow-400 to-orange-500 hover:shadow-amber-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg hover:scale-105 hover:opacity-90 transition-all duration-300">
+        <button className="xl:flex hidden bg-gradient-to-r cursor-pointer from-yellow-400 to-orange-500 hover:shadow-amber-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg hover:scale-105 hover:opacity-90 transition-all duration-300">
           DISCUSS
         </button>
 
@@ -86,7 +86,10 @@ export default function Navbar() {
       {/* Responsive Menu */}
       {/* {isMenuOpen && (
         <div className="xl:hidden flex flex-col items-center w-full border-1 border-white mt-2 p-4 rounded-2xl">
-          <a
+        <button className="bg-gradient-to-r cursor-pointer from-yellow-400 to-orange-500 hover:shadow-amber-600 text-white font-bold py-2 px-4 rounded-full shadow-md hover:shadow-lg hover:scale-105 hover:opacity-90 transition-all duration-300">
+          DISCUSS
+        </button> 
+        <a
             onClick={handleLinkClick}
             className="py-2 cursor-pointer hover:text-[#fedd2f]"
           >

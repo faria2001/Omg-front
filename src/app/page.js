@@ -6,6 +6,10 @@ import OmgProject from "./Components/omgProject";
 import Symbolism from "./Components/symbolism";
 import Roadmap from "./Components/Roadmap";
 import UniqueOmg from "./Components/uniqueOmg";
+import Tokenomics from "./Components/tokonomics";
+import KycAudit from "./Components/kycAudit";
+import Community from "./Components/community";
+import Footer from "./Components/footer";
 
 export default function Home() {
   return (
@@ -22,7 +26,7 @@ export default function Home() {
     // <div className="grid items-center justify-items-center
     //  h-full p-4 pb-4 gap-6 font-[family-name:var(--font-geist-sans)]">
     <div
-      className="relative min-h-screen bg-fixed grid w-full self-center items-center justify-items-center"
+      className="relative min-h-screen bg-fixed grid w-full gap-6 self-center items-center justify-items-center"
       style={{
         // backgroundImage: "url('/assets/omg-bg_Masked.svg')",
         backgroundImage: "url('/assets/omg-3.png')",
@@ -46,7 +50,11 @@ export default function Home() {
       <OmgProject />
       <UniqueOmg />
       {/* <Roadmap/> */}
-      {/* <Symbolism /> */}
+      <Symbolism />
+      <Tokenomics />
+      <KycAudit />
+      <Community />
+      {/* <Footer /> */}
       {/* </div> */}
     </div>
   );
