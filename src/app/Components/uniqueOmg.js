@@ -3,7 +3,10 @@ import React from "react";
 
 const UniqueOmg = () => {
   return (
-    <div className="text-white justify-center bg-gradient-to-b from-[#529bd0]/60  to-white/60 items-center self-center flex flex-col gap-y-24 w-full p-6 text-center max-w-[1280px] min-h-[704px] backdrop-blur-lg  rounded-4xl border-primary">
+    <div
+      id="features"
+      className="text-white justify-center bg-gradient-to-b from-[#529bd0]/60  to-white/60 items-center self-center flex flex-col gap-y-24 w-full p-6 text-center max-w-[1280px] min-h-[704px] backdrop-blur-lg  rounded-4xl border-primary"
+    >
       <div className="text-center max-w-[700px] w-full">
         {" "}
         <h1 className="text-3xl md:text-4xl font-bold text-white text-center mb-6">

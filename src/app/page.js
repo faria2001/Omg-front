@@ -4,12 +4,12 @@ import NFTCollection from "./Components/NFTCollections";
 import Warrior from "./Components/OMGCoin";
 import OmgProject from "./Components/omgProject";
 import Symbolism from "./Components/symbolism";
-import Roadmap from "./Components/Roadmap";
 import UniqueOmg from "./Components/uniqueOmg";
 import Tokenomics from "./Components/tokonomics";
 import KycAudit from "./Components/kycAudit";
 import Community from "./Components/community";
 import Footer from "./Components/footer";
+import Road from "./Components/road";
 
 export default function Home() {
   return (
@@ -49,12 +49,12 @@ export default function Home() {
       <NFTCollection />
       <OmgProject />
       <UniqueOmg />
-      {/* <Roadmap/> */}
       <Symbolism />
+      <Road />
       <Tokenomics />
       <KycAudit />
       <Community />
-      {/* <Footer /> */}
+      <Footer />
       {/* </div> */}
     </div>
   );

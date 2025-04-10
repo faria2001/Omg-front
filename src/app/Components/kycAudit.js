@@ -3,8 +3,11 @@ import React from "react";
 
 const KycAudit = () => {
   return (
-    <div className="text-white justify-center bg-gradient-to-b from-[#529bd0]/90  to-white/60 items-center self-center flex flex-col border-2 border-[#529bd0] gap-y-10 w-full p-6 text-center max-w-[1280px] min-h-[805px] backdrop-blur-lg  rounded-4xl border-primary">
-      <div className="text-center text-black text-4xl sm:text-5xl font-bold w-full">
+    <div
+      id="kyc-audit"
+      className="text-white justify-center bg-gradient-to-b from-[#529bd0]/60  to-white/60 items-center self-center flex flex-col border-2 border-[#529bd0] gap-y-10 w-full p-6 text-center max-w-[1280px] min-h-[805px] backdrop-blur-lg  rounded-4xl border-primary"
+    >
+      <div className="text-center text-white text-4xl sm:text-5xl font-bold w-full">
         <span>K</span>
         <span className="text-[#ffdf20]">Y</span>
         <span>&</span>
@@ -16,8 +19,8 @@ const KycAudit = () => {
         <span>T</span>
       </div>
       {/* first section */}
-      <div className="grid text-start justify-between w-full p-4 lg:grid-cols-2 gap-2 grid-cols-1 ">
-        <div className=" flex flex-col flex-wrap ml-4 gap-8">
+      <div className="grid text-start justify-between w-full sm:p-4 lg:grid-cols-2 gap-2 grid-cols-1 ">
+        <div className=" flex flex-col flex-wrap sm:ml-4 gap-8">
           <div>
             <h1 className="text-[#ffdf20] text-3xl md:text-4xl font-bold">
               OhMyGod Coin
@@ -129,19 +132,19 @@ const KycAudit = () => {
       </div>
       {/* second section */}
       <div className="grid text-black max-w-[1160px] gap-3 grid-cols-1 lg:grid-cols-2">
-        <div className="rounded-xl p-2 items-center bg-[#feffd7] w-full flex gap-2">
+        <div className="rounded-xl min-h-[153px] sm:px-1 px-2  items-center bg-[#feffd7] w-full flex flex-col sm:flex-row gap-2">
           <Image
             width={80}
             height={80}
             className=""
             src="/assets/omg-7-slider-2.svg"
-            alt="Phase 1"
+            alt="audit 1"
           />{" "}
           <div className=" text-start">
             <h3 className="text-xl font-bold mb-2">
               OhMyGod Project Approved Team
             </h3>
-            <p className="text-sm">
+            <p className="text-sm sm:p-0 p-1">
               The OhMyGod project team has passed a thorough KYC process,
               verifying each member&apos;s identity and credentials. This
               ensures transparency and trust, giving investors confidence in the
@@ -149,19 +152,19 @@ const KycAudit = () => {
             </p>
           </div>
         </div>
-        <div className="rounded-xl p-2 items-center bg-[#feffd7] w-full flex gap-2">
+        <div className="rounded-xl min-h-[153px] sm:px-1 px-2 items-center bg-[#feffd7] flex-col sm:flex-row w-full flex gap-2">
           <Image
             width={80}
             height={80}
             className=""
             src="/assets/omg-7-slider-2.svg"
-            alt="Phase 1"
+            alt="audit 1"
           />{" "}
           <div className=" text-start">
             <h3 className="text-xl font-bold mb-2">
               OhMyGod Project Approved Team
             </h3>
-            <p className="text-sm">
+            <p className="text-sm sm:p-0 p-1">
               The OhMyGod project team has passed a thorough KYC process,
               verifying each member&apos;s identity and credentials. This
               ensures transparency and trust, giving investors confidence in the

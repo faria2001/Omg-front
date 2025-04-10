@@ -1,8 +1,18 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import NetworkSelection from "./networkselect";
+import { Progress } from "./ui/progress";
 
 const Hero = () => {
+  const [progressValue, setProgressValue] = useState(0);
+
+  useEffect(() => {
+    const percentage = (500 / 1000) * 100;
+
+    setProgressValue(percentage <= 100 ? percentage : 100);
+  }, []);
+
   return (
     <div className="grid xl:grid-cols-2 grid-cols-1 mt-10 justify-center items-center p-2 ">
       <div className=" w-full h-full gap-10  justify-center flex flex-col">
@@ -44,13 +54,16 @@ const Hero = () => {
                 alt="cat"
                 width={58}
                 height={58}
-                className="absolute -translate-y-full top-3 right-2"
+                className="absolute -translate-y-full top-3 right-2 z-10"
               />
-              <div className="h-4  overflow-hidden bg-gray-200 rounded-full">
+              {/* <div className="h-4  overflow-hidden bg-gray-200 rounded-full">
                 <div
                   className="h-full bg-gradient-to-r from-primary/50 to-primary"
                   style={{ width: "87.7769%" }}
                 ></div>
+              </div> */}
+              <div className=" mb-[8px] ">
+                <Progress value={progressValue} />
               </div>
             </div>
             <div className="flex items-center justify-center gap-2  text-primary">

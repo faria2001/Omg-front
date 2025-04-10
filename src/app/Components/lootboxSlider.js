@@ -57,7 +57,10 @@ const SliderComponent = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center py-10  px-4 overflow-hidden">
+    <div
+      id="lootbox"
+      className="flex justify-center items-center py-10  px-4 overflow-hidden"
+    >
       <div
         className="w-full max-w-[500px] md:max-w-[1190px] rounded-[20px] border-[2px] border-yellow-400 backdrop-blur-[15px] p-6 md:p-10 flex flex-col items-center"
         style={{

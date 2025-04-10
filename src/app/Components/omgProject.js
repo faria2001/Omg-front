@@ -4,7 +4,12 @@ import React from "react";
 const OmgProject = () => {
   return (
     <div className="text-white self-center w-full max-w-[1280px] flex flex-col gap-5 items-center">
-      <Image src={"/assets/omg-project.svg"} height={250} width={250} alt="" />
+      <Image
+        src={"/assets/omg-project-1.svg"}
+        height={250}
+        width={250}
+        alt=""
+      />
       <h1 className="font-bold text-3xl md:text-4xl text-white text-center mb-6">
         OMG Project
       </h1>

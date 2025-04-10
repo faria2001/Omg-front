@@ -39,7 +39,7 @@ const Header = () => {
       >
         <Navbar />
         <Hero />
-        {/* <LootBoxSlider /> need to check responsiveness */}
+        {/* <LootBoxSlider /> */}
       </div>
     </div>
   );
