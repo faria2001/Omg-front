@@ -26,7 +26,7 @@ const Symbolism = () => {
           <div className="">
             <h3 className="text-xl font-bold mb-2">Transaction Fees</h3>
             <p>
-              OhMyGod will be used to pay for transactions on the CatiSwap DEX,
+              OhMyGod will be used to pay for transactions on the OmgSwap DEX,
               driving demand for the token.
             </p>
           </div>
