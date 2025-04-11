@@ -94,7 +94,7 @@ const PurrCoinWarriors = () => {
             </div>
             <div className="absolute inset-0 w-full h-full">
               <Image
-                src="/phone.png"
+                src="/phone-Raccon.png"
                 alt="OMG warrior closeup"
                 fill
                 className="object-contain"
