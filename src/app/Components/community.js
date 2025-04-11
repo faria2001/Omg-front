@@ -66,9 +66,9 @@ const Community = () => {
         <div className="rounded-2xl p-2 min-h-[323px] justify-center flex flex-col gap-2 bg-white text-center">
           <h1 className="text-xl font-bold mb-2">Claim your Free Airdrop</h1>
           <div className="text-sm min-h-[130px] text-center">
-            The PurrCoin project airdrop aims to distribute PURR tokens to the
+            The OhMyGod project airdrop aims to distribute $OMG tokens to the
             community, rewarding early supporters and increasing engagement.
-            This initiative boosts awareness and participation in the PurrCoin
+            This initiative boosts awareness and participation in the OhMyGod
             ecosystem.
           </div>
           <button className="rounded-full text-white cursor-pointer max-w-[161px] p-1 w-full self-center bg-orange-400">
@@ -82,8 +82,8 @@ const Community = () => {
             Communities And Acquisition
           </h1>
           <div className="text-sm min-h-[130px] text-center">
-            Membership in the PurrCoin community offers exclusive perks like
-            early updates, special events, and token airdrops. Acquiring PURR
+            Membership in the OhMyGod community offers exclusive perks like
+            early updates, special events, and token airdrops. Acquiring $OMG
             tokens allows members to participate in governance, earn rewards,
             and active ecosystem.
           </div>
@@ -96,7 +96,7 @@ const Community = () => {
         <div className="rounded-2xl p-2 min-h-[323px] justify-center flex flex-col gap-2 bg-white text-center">
           <h1 className="text-xl font-bold mb-2"> Vote In Project Decisions</h1>
           <div className="text-sm min-h-[130px] text-center">
-            Voting in PurrCoin project decisions allows PURR token holders to
+            Voting in OhMyGod project decisions allows $OMG token holders to
             directly influence the platform&apos;s future. This ensures that
             development aligns with community interests, fostering a democratic
             and engaged ecosystem.

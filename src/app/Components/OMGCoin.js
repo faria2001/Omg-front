@@ -1,4 +1,3 @@
-// components/PurrCoinWarriors.js
 import Image from "next/image";
 
 const PurrCoinWarriors = () => {
@@ -36,7 +35,7 @@ const PurrCoinWarriors = () => {
           <div className="space-y-8">
             {/* Description box */}
             <div className="bg-gradient-to-r from-[#131313] via-[#201D1E]/70 to-white/10 rounded-xl backdrop-blur-[25px] p-6">
-              <p className="text-white text-[16px] md:text-[18px] font-poppins font-bold leading-relaxed">
+              <p className="text-white text-[14px] sm:text-[16px] md:text-[18px] font-poppins font-bold leading-relaxed">
                 OMG Warriors is your thrilling entry into a multiverse adventure
                 like no other, now accessible through a captivating Telegram
                 game. This dynamic clicker game offers a unique twist that will
@@ -60,7 +59,7 @@ const PurrCoinWarriors = () => {
               </h3>
 
               <div className="bg-gradient-to-r from-[#131313] via-[#201D1E]/70 to-white/10 rounded-xl backdrop-blur-[25px] p-6">
-                <p className="text-white text-[16px] md:text-[18px] font-poppins font-bold leading-relaxed">
+                <p className="text-white text-[14px] sm:text-[16px] md:text-[18px] font-poppins font-bold leading-relaxed">
                   In the heart of Starshadow Woods, whispers of a dark power
                   ripple through ancient trees. The High Seer of the OMG
                   Warriors senses the rise of an ominous force and sends a call

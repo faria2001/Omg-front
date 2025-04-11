@@ -39,7 +39,7 @@ const Header = () => {
       >
         <Navbar />
         <Hero />
-        {/* <LootBoxSlider /> */}
+        <LootBoxSlider />
       </div>
     </div>
   );
