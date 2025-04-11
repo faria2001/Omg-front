@@ -29,7 +29,7 @@ const Road = () => {
           src="/assets/omg-7-3.svg"
           alt="Phase 1"
         />{" "}
-        <div className="mr-4 font-bold text-white text-lg">Phase 1</div>
+        <div className="mr-4 font-bold text-[#ffdf20] text-xl">Phase 1</div>
         <div className="max-w-[640px] relative p-2 items-center justify-center self-center flex rounded-3xl w-full bg-white min-h-[362px]">
           <div className="absolute lg:flex hidden -left-6">
             <Image
@@ -73,7 +73,7 @@ const Road = () => {
       </div>
       {/* 2 */}
       <div className="flex  text-black justify-center items-center w-full flex-col lg:flex-row gap-5">
-        <div className="mr-4 lg:hidden flex font-bold text-white text-lg">
+        <div className="mr-4 lg:hidden flex font-bold text-[#ffdf20] text-xl">
           Phase 2
         </div>
         <Image
@@ -128,7 +128,7 @@ const Road = () => {
             </ul>
           </div>
         </div>
-        <div className="ml-4 lg:flex hidden font-bold text-white text-lg">
+        <div className="ml-4 lg:flex hidden font-bold text-[#ffdf20] text-xl">
           Phase 2
         </div>
         <Image
@@ -148,7 +148,7 @@ const Road = () => {
           src="/assets/omg-7-3.svg"
           alt="Phase 1"
         />{" "}
-        <div className="mr-4 font-bold text-white text-lg">Phase 3</div>
+        <div className="mr-4 font-bold text-[#ffdf20] text-xl">Phase 3</div>
         <div className="max-w-[640px] relative p-2 items-center justify-center self-center flex rounded-3xl w-full bg-white min-h-[362px]">
           <div className="absolute lg:flex hidden -left-6">
             <Image
@@ -191,7 +191,7 @@ const Road = () => {
       </div>
       {/* 4 */}
       <div className="flex text-black justify-center items-center w-full flex-col lg:flex-row gap-5">
-        <div className="ml-4 lg:hidden flex font-bold text-white text-lg">
+        <div className="ml-4 lg:hidden flex font-bold text-[#ffdf20] text-xl">
           Phase 4
         </div>
         <Image
@@ -234,7 +234,7 @@ const Road = () => {
             </ul>
           </div>
         </div>
-        <div className="ml-4 lg:flex hidden font-bold text-white text-lg">
+        <div className="ml-4 lg:flex hidden font-bold text-[#ffdf20] text-xl">
           Phase 4
         </div>
         <Image

@@ -45,6 +45,20 @@ const Footer = () => {
             KYC-AUDIT
           </Link>
         </div>
+        <div className="border-x border-browngrey text-center col-span-1 py-8 ">
+          <p className="text-gray-400 text-sm p-1">
+            © Powered by :{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={"https://brdigitech.com"}
+              className="underline"
+            >
+              brdigitech
+            </a>{" "}
+            {new Date().getFullYear()}
+          </p>
+        </div>
         <div className="flex flex-row gap-2 justify-center max-w-[200px] w-full ">
           <a
             target="_blank"
