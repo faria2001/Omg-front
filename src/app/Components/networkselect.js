@@ -6,6 +6,7 @@ import React from "react";
 const NetworkSelection = () => {
   return (
     <div
+      id="airdrops"
       //   className="relative w-[557px] h-[407px] mx-auto bg-gradient-to-b
       //   from-teal-500/50 to-transparent backdrop-blur-lg rounded-[30px]"
       className="text-white flex flex-col gap-5 w-full p-6 text-center max-w-[457px] min-h-[379px] bg-gradient-to-b from-teal-500/50 to-transparent backdrop-blur-lg border-[#6BFFFF] border-4 rounded-4xl border-primary"

@@ -32,15 +32,23 @@ export default function Navbar() {
       <div className="hidden xl:flex border-1 border-white text-[14px] justify-between p-4 max-w-[650px] w-full rounded-4xl text-white font-bold">
         <a className="cursor-pointer hover:text-[#fedd2f]">HOME</a>
         <Link
-          to="lootbox"
+          to="about"
           smooth={true}
           duration={500}
           className="cursor-pointer hover:text-[#fedd2f]"
           onClick={handleMenuToggle}
         >
-          LOOTBOX
+          ABOUT
         </Link>
-        <a className="cursor-pointer hover:text-[#fedd2f]">AIRDROPS</a>
+        <Link
+          to="airdrops"
+          smooth={true}
+          duration={500}
+          className="cursor-pointer hover:text-[#fedd2f]"
+          onClick={handleMenuToggle}
+        >
+          AIRDROPS
+        </Link>
         <Link
           to="features"
           smooth={true}
@@ -165,13 +173,13 @@ export default function Navbar() {
               HOME
             </Link>
             <Link
-              to="lootbox"
+              to="about"
               smooth={true}
               duration={500}
               className="py-2 cursor-pointer hover:text-[#fedd2f]"
               onClick={handleMenuToggle}
             >
-              LOOTBOX
+              ABOUT
             </Link>
             <Link
               to="airdrops"
