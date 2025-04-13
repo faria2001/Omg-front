@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const NFTCollection = () => {
@@ -33,17 +34,19 @@ const NFTCollection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* First NFT Card */}
           <div className="w-full h-[467px] bg-gradient-to-b from-white/30 to-white/5 rounded-[20px] backdrop-blur-md p-6 flex flex-col items-center border border-white/10 hover:border-orange-400/30 transition-all">
-            <img
+            <Image
+              width={150}
+              height={100}
               className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
-              src="nft1.png"
-              alt="OhMyGod NFT"
+              src="/assets/omg-3d-nft.jpg"
+              alt="OhMyGod 3D NFT"
             />
             <h3 className="text-white text-lg font-bold font-poppins mb-4">
-              OhMyGod NFT
+              OhMyGod 3D NFT
             </h3>
             <p className="text-white text-sm font-normal font-poppins text-center mb-8 leading-relaxed">
               To see the collection, click on the link below and enter Clash Of
-              OhMyGod NFT Collection On Opensea Marketplace.
+              OhMyGod 3D NFT Collection On Opensea Marketplace.
             </p>
             <button className="w-full max-w-[256px] h-9 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-[30px] flex items-center justify-center hover:from-orange-500 hover:to-yellow-500 transition-all shadow-lg hover:shadow-orange-400/20">
               <span className="text-white text-sm font-bold font-poppins">
@@ -55,17 +58,20 @@ const NFTCollection = () => {
           {/* Second NFT Card */}
           <div className="w-full h-[467px] bg-gradient-to-b from-white/30 to-white/5 rounded-[20px] backdrop-blur-md p-6 flex flex-col items-center relative border border-white/10 hover:border-orange-400/30 transition-all">
             <div className="absolute -z-10 w-full max-w-[256px] h-9 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-[30px] blur-md opacity-70 bottom-6"></div>
-            <img
+
+            <Image
+              width={150}
+              height={100}
               className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
-              src="nft2.png"
-              alt="OhMyGod NFT"
+              src="/assets/omg-3d-nft-2.svg"
+              alt="OhMyGod 3D NFT"
             />
             <h3 className="text-white text-lg font-bold font-poppins mb-4">
-              OhMyGod NFT
+              OhMyGod 3D NFT
             </h3>
             <p className="text-white text-sm font-normal font-poppins text-center mb-8 leading-relaxed">
               To see the collection, click on the link below and enter Clash Of
-              OhMyGod NFT Collection On Opensea Marketplace.
+              OhMyGod 3D NFT Collection On Opensea Marketplace.
             </p>
             <button className="w-full max-w-[256px] h-9 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-[30px] flex items-center justify-center hover:from-orange-500 hover:to-yellow-500 transition-all shadow-lg hover:shadow-orange-400/20">
               <span className="text-white text-sm font-bold font-poppins">
@@ -76,17 +82,19 @@ const NFTCollection = () => {
 
           {/* Third NFT Card */}
           <div className="w-full h-[467px] bg-gradient-to-b from-white/30 to-white/5 rounded-[20px] backdrop-blur-md p-6 flex flex-col items-center border border-white/10 hover:border-orange-400/30 transition-all">
-            <img
+            <Image
+              width={150}
+              height={100}
               className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
-              src="nft3.png"
-              alt="OhMyGod NFT"
+              src="/assets/omg-3d-nft.jpg"
+              alt="OhMyGod 3D NFT"
             />
             <h3 className="text-white text-lg font-bold font-poppins mb-4">
-              OhMyGod NFT
+              OhMyGod 3D NFT
             </h3>
             <p className="text-white text-sm font-normal font-poppins text-center mb-8 leading-relaxed">
               To see the collection, click on the link below and enter Clash Of
-              OhMyGod NFT Collection On Opensea Marketplace.
+              OhMyGod 3D NFT Collection On Opensea Marketplace.
             </p>
             <button className="w-full max-w-[256px] h-9 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-[30px] flex items-center justify-center hover:from-orange-500 hover:to-yellow-500 transition-all shadow-lg hover:shadow-orange-400/20">
               <span className="text-white text-sm font-bold font-poppins">
