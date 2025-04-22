@@ -14,7 +14,7 @@ import { useEffect, useState } from "react";
 
 // Optional: Add a loader component or use Tailwind spinner
 const Loader = () => (
-  <div className="w-screen h-screen flex items-center justify-center bg-[#6b9dca]">
+  <div className="w-screen h-screen flex items-center justify-center bg-[#09134f]">
     <div className="relative w-24 h-24">
       <div className="absolute inset-0 rounded-full border-4 border-t-[#fedc2f] border-b-transparent animate-spin"></div>
       <div className="absolute inset-2 rounded-full border-4 border-l-[#fedc2f] border-r-transparent animate-spin-slow"></div>
