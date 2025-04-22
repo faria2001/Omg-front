@@ -29,6 +29,19 @@ body {
     0 0 8px rgba(27, 225, 225, 0.3);
 }
 
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 4s linear infinite;
+}
+
 /* @keyframes fadeInUp {
   0% {
     opacity: 0;
