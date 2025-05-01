@@ -63,19 +63,23 @@ const Hero = () => {
                 ></div>
               </div> */}
               <div className=" mb-[8px] ">
-                <Progress value={progressValue} />
+                <Progress
+                  //  value={progressValue}
+                  value={0}
+                />
               </div>
             </div>
             <div className="flex items-center justify-center gap-2  text-primary">
               <span className="text-base sm:text-lg font-semibold lg:text-xl M">
-                22.15B
+                {/* 22.15B */}0
               </span>
               <span className="m2">/ 25.24B OMG</span>
             </div>
             <div className="flex items-center justify-center gap-2 my-3">
               {/* <Image src="/logo.svg" alt="cat" width={48} height={48} /> */}
               <p className=" text-xl sm:text-2xl font-semibold text-primary Raised">
-                Raised: $19,095,438.822
+                {/* Raised: $19,095,438.822 */}
+                Raised: $0
               </p>
             </div>
             <div className="px-2 py-1 text-base sm:text-lg border-2 rounded-3xl border-[#9E6100] buy">

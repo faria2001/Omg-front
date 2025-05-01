@@ -32,7 +32,7 @@ const KycAudit = () => {
           <div>
             <p>4 Steps to effective KYC Compliance</p>
           </div>
-          <div className="flex flex-col flex-wrap gap-3">
+          {/* <div className="flex flex-col flex-wrap gap-3">
             <strong className="text-[#ffdf20]">Contract Address:</strong>
             <h2 className="sm:flex hidden">
               {" "}
@@ -44,7 +44,7 @@ const KycAudit = () => {
               <br />
               qgbXa2egtAUbH7fRhS8JBgD
             </h2>
-          </div>
+          </div> */}
 
           <div className="text-[#ffdf20] font-semibold">KYC & Audited By:</div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-1 w-full text-black">
