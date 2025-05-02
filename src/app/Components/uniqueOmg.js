@@ -22,7 +22,7 @@ const UniqueOmg = () => {
       <div className="grid xl:grid-cols-3 text-black lg:grid-cols-2 grid-cols-1 gap-3 max-w-[900px] w-full self-center">
         <div className=" flex items-center relative min-h-[405px] bg-white rounded-3xl ">
           <Image
-            src={"/assets/unique-1.svg"}
+            src={"/assets/unique-1.png"}
             height={200}
             width={200}
             alt=""
@@ -39,7 +39,7 @@ const UniqueOmg = () => {
         </div>
         <div className=" flex items-center relative min-h-[405px] bg-white rounded-3xl ">
           <Image
-            src={"/assets/unique-2.svg"}
+            src={"/assets/unique-2.png"}
             height={200}
             width={200}
             alt=""
@@ -55,7 +55,7 @@ const UniqueOmg = () => {
         </div>
         <div className=" flex items-center relative min-h-[405px] bg-white rounded-3xl ">
           <Image
-            src={"/assets/unique-3.svg"}
+            src={"/assets/unique-3.png"}
             height={200}
             width={200}
             alt=""

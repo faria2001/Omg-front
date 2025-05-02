@@ -7,7 +7,7 @@ const PurrCoinWarriors = () => {
       <div className="absolute inset-0 w-full h-full overflow-hidden z-0">
         <div className="relative w-full h-full rounded-xl overflow-hidden">
           <Image
-            src="/assets/omg-6.png"
+            src="/assets/omg-6.svg"
             alt="Omg background"
             fill
             className="object-cover"
@@ -86,7 +86,7 @@ const PurrCoinWarriors = () => {
           <div className="relative h-[500px] md:h-[800px] lg:h-[900px]">
             <div className="absolute inset-0 w-full h-full">
               <Image
-                src="/frame2.png"
+                src="/frame2.svg"
                 alt="OMG warrior"
                 fill
                 className="object-contain"
@@ -94,7 +94,7 @@ const PurrCoinWarriors = () => {
             </div>
             <div className="absolute inset-0 w-full h-full">
               <Image
-                src="/phone-Raccon.png"
+                src="/phone-Raccon.svg"
                 alt="OMG warrior closeup"
                 fill
                 className="object-contain"

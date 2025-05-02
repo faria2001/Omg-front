@@ -40,19 +40,19 @@ const SliderComponent = () => {
       title: "Glitter Glow",
       discount: "12% OFF",
       price: "$197 Get 8M $OMG",
-      image: "/goldbox.png",
+      image: "/goldbox.svg",
     },
     {
       title: "Glitter Glow",
       discount: "12% OFF",
       price: "$197 Get 8M $OMG",
-      image: "/goldbox.png",
+      image: "/goldbox.svg",
     },
     {
       title: "Glitter Glow",
       discount: "12% OFF",
       price: "$197 Get 8M $OMG",
-      image: "/goldbox.png",
+      image: "/goldbox.svg",
     },
   ];
 

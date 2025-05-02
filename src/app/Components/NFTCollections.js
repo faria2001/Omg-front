@@ -34,14 +34,15 @@ const NFTCollection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* First NFT Card */}
           <div className="w-full h-[467px] bg-gradient-to-b from-white/30 to-white/5 rounded-[20px] backdrop-blur-md p-6 flex flex-col items-center border border-white/10 hover:border-orange-400/30 transition-all">
-            {/* <Image
+            <Image
               width={150}
               height={100}
               className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
-              src="/assets/omg-3d-nft.jpg"
+              src="/videos/Nft1.webp"
               alt="OhMyGod 3D NFT"
-            /> */}
-            <video
+              unoptimized
+            />
+            {/* <video
               className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
               src="/videos/Nft1.mp4"
               autoPlay
@@ -49,7 +50,7 @@ const NFTCollection = () => {
               loop
             >
               Your browser does not support the video tag.
-            </video>
+            </video> */}
             <h3 className="text-white text-lg font-bold font-poppins mb-4">
               OhMyGod 3D NFT
             </h3>
@@ -68,26 +69,24 @@ const NFTCollection = () => {
           <div className="w-full h-[467px] bg-gradient-to-b from-white/30 to-white/5 rounded-[20px] backdrop-blur-md p-6 flex flex-col items-center relative border border-white/10 hover:border-orange-400/30 transition-all">
             <div className="absolute -z-10 w-full max-w-[256px] h-9 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-[30px] blur-md opacity-70 bottom-6"></div>
 
-            {/* <Image
+            <Image
               width={150}
               height={100}
               className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
-              src="/assets/omg-3d-nft-2.svg"
+              src="/videos/Nft2.webp"
               alt="OhMyGod 3D NFT"
-            /> */}
-            <video
+              unoptimized
+            />
+            {/* <video
               className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
-              src="/videos/Nft2.mp4"
+              src="/videos/Nft2.webp"
               autoPlay
               muted
               loop
             >
               Your browser does not support the video tag.
-            </video>
-            {/* <video
-              className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
-              src="/videos/Nft2.mp4"
-            /> */}
+            </video> */}
+
             <h3 className="text-white text-lg font-bold font-poppins mb-4">
               OhMyGod 3D NFT
             </h3>
@@ -104,14 +103,15 @@ const NFTCollection = () => {
 
           {/* Third NFT Card */}
           <div className="w-full h-[467px] bg-gradient-to-b from-white/30 to-white/5 rounded-[20px] backdrop-blur-md p-6 flex flex-col items-center border border-white/10 hover:border-orange-400/30 transition-all">
-            {/* <Image
+            <Image
               width={150}
               height={100}
               className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
-              src="/assets/omg-3d-nft.jpg"
+              src="/videos/Nft3.webp"
               alt="OhMyGod 3D NFT"
-            /> */}
-            <video
+              unoptimized
+            />
+            {/* <video
               className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
               src="/videos/Nft3.mp4"
               autoPlay
@@ -119,7 +119,7 @@ const NFTCollection = () => {
               loop
             >
               Your browser does not support the video tag.
-            </video>
+            </video> */}
             <h3 className="text-white text-lg font-bold font-poppins mb-4">
               OhMyGod 3D NFT
             </h3>

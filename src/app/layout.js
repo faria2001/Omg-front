@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <link rel="preload" as="image" href="/assets/omg-3.svg" />
         <link rel="preload" as="image" href="/assets/Border-bg.svg" />
         <link rel="preload" as="image" href="/assets/mob-hero-bg.svg" />
-        <link rel="preload" as="image" href="/assets/omg-7.png" />
+        <link rel="preload" as="image" href="/assets/omg-7.svg" />
         <link rel="preload" as="image" href="/assets/omg-project-1.svg" />
       </head>
       <body
