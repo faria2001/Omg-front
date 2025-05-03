@@ -42,15 +42,7 @@ const NFTCollection = () => {
               alt="OhMyGod 3D NFT"
               unoptimized
             />
-            {/* <video
-              className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
-              src="/videos/Nft1.mp4"
-              autoPlay
-              muted
-              loop
-            >
-              Your browser does not support the video tag.
-            </video> */}
+
             <h3 className="text-white text-lg font-bold font-poppins mb-4">
               OhMyGod 3D NFT
             </h3>
@@ -77,15 +69,6 @@ const NFTCollection = () => {
               alt="OhMyGod 3D NFT"
               unoptimized
             />
-            {/* <video
-              className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
-              src="/videos/Nft2.webp"
-              autoPlay
-              muted
-              loop
-            >
-              Your browser does not support the video tag.
-            </video> */}
 
             <h3 className="text-white text-lg font-bold font-poppins mb-4">
               OhMyGod 3D NFT
@@ -111,15 +94,7 @@ const NFTCollection = () => {
               alt="OhMyGod 3D NFT"
               unoptimized
             />
-            {/* <video
-              className="w-full max-w-[256px] h-56 rounded-[20px] object-cover mb-8 hover:scale-105 transition-transform duration-300"
-              src="/videos/Nft3.mp4"
-              autoPlay
-              muted
-              loop
-            >
-              Your browser does not support the video tag.
-            </video> */}
+
             <h3 className="text-white text-lg font-bold font-poppins mb-4">
               OhMyGod 3D NFT
             </h3>

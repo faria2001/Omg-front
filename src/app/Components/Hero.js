@@ -33,15 +33,7 @@ const Hero = () => {
 
       <div className=" items-center w-full justify-center flex ">
         <div className="flex flex-col items-center justify-center w-full ">
-          <div
-            className="text-white flex flex-col gap-3 w-full p-6 text-center max-w-[457px] min-h-[379px] bg-gradient-to-b from-[#f9a531]/80 to-[#f9a531]/80 backdrop-blur-lg border-[#fedd2f] border-4 rounded-4xl border-primary"
-            // style={{
-            //   background:
-            //     "linear-gradient(180deg, rgba(255, 184, 76, 0.75) 0%, rgba(252, 191, 53, 0.75) 100%)",
-            //   backdropFilter: "blur(25px)", // Note: Check browser compatibility
-            //   borderRadius: "30px",
-            // }}
-          >
+          <div className="text-white flex flex-col gap-3 w-full p-6 text-center max-w-[457px] min-h-[379px] bg-gradient-to-b from-[#f9a531]/80 to-[#f9a531]/80 backdrop-blur-lg border-[#fedd2f] border-4 rounded-4xl border-primary">
             <h1 className=" text-xl sm:text-2xl font-bold text-white title">
               Buy & Stake OMG Token
             </h1>

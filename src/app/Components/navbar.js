@@ -24,9 +24,6 @@ export default function Navbar() {
           alt="Logo"
           className=""
         />
-        {/* <h1 className="text-xl xl:flex hidden text-[#fedd2f] font-bold ml-4">
-          OhMyGod
-        </h1> */}
       </div>
 
       <div className="hidden xl:flex border-1 border-white text-[14px] justify-between p-4 max-w-[650px] w-full rounded-4xl text-white font-bold">

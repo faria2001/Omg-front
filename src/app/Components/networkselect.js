@@ -7,8 +7,6 @@ const NetworkSelection = () => {
   return (
     <div
       id="airdrops"
-      //   className="relative w-[557px] h-[407px] mx-auto bg-gradient-to-b
-      //   from-teal-500/50 to-transparent backdrop-blur-lg rounded-[30px]"
       className="text-white flex flex-col gap-5 w-full p-6 text-center max-w-[457px] min-h-[379px] bg-gradient-to-b from-teal-500/50 to-transparent backdrop-blur-lg border-[#6BFFFF] border-4 rounded-4xl border-primary"
     >
       <h2 className="text-white font-bold  text-xl sm:text-2xl mt-2 leading-[30px] text-center">
@@ -27,29 +25,13 @@ const NetworkSelection = () => {
           <div className="bg-gradient-to-r from-teal-500 shadow-glow to-[#6BFFFF] py-2 backdrop-blur-lg  rounded-[30px] flex items-center gap-1 px-4">
             <Image src={"/assets/eth1.svg"} height={30} width={30} alt="" />
             <span className="text-white font-bold text-sm sm:text-lg">ETH</span>
-            {/* <span className="text-white font-bold text-[16px]">
-              Pay with ETH
-            </span>
-            <span className="text-white font-bold text-[16px]">Max</span>
-            <span className="text-white font-bold text-[16px]">0</span> */}
           </div>
-          {/* <div
-            type="number"
-            className="bg-[#000342] border border-[#00A9A9] rounded-[30px] flex items-center justify-between px-4"
-          >
-            <span className="text-white font-bold text-[20px]">ETH</span>
-            <span className="text-white font-bold text-[16px]">
-              Pay with ETH
-            </span>
-            <span className="text-white font-bold text-[16px]">Max</span>
-            <span className="text-white font-bold text-[16px]">0</span>
-          </div> */}
+
           <div className="flex justify-between text-xs sm:text-base px-2 w-full">
             <label className="text-white">Pay with ETH</label>
             <button className="text-blue-400">Max</button>
           </div>
           <div className="py-2 flex-col bg-[#000342] relative border border-[#00A9A9] rounded-[30px] flex items-center justify-between px-4">
-            {/* <div className="bg-[#000342] relative border border-[#00A9A9] rounded-[30px] flex items-center justify-between px-4"> */}
             <input
               type="number"
               defaultValue="0"
@@ -78,29 +60,13 @@ const NetworkSelection = () => {
             <span className="text-white font-bold  text-sm sm:text-lg">
               USDT
             </span>
-            {/* <span className="text-white font-bold text-[16px]">
-              Pay with ETH
-            </span>
-            <span className="text-white font-bold text-[16px]">Max</span>
-            <span className="text-white font-bold text-[16px]">0</span> */}
           </div>
-          {/* <div
-            type="number"
-            className="bg-[#000342] border border-[#00A9A9] rounded-[30px] flex items-center justify-between px-4"
-          >
-            <span className="text-white font-bold text-[20px]">ETH</span>
-            <span className="text-white font-bold text-[16px]">
-              Pay with ETH
-            </span>
-            <span className="text-white font-bold text-[16px]">Max</span>
-            <span className="text-white font-bold text-[16px]">0</span>
-          </div> */}
+
           <div className="flex justify-between text-xs sm:text-base px-2 w-full">
             <label className="text-white">Pay with OMG</label>
             <button className="text-blue-400">Max</button>
           </div>
           <div className="py-2 flex-col bg-[#000342] relative border border-[#00A9A9] rounded-[30px] flex items-center justify-between px-4">
-            {/* <div className="bg-[#000342] relative border border-[#00A9A9] rounded-[30px] flex items-center justify-between px-4"> */}
             <input
               type="number"
               defaultValue="0"
@@ -116,32 +82,7 @@ const NetworkSelection = () => {
             Reffereal
           </button>
         </div>
-        {/* <div className=" w-[236px] h-[56px] left-8 top-[230px]"> */}
-
-        {/* </div> */}
       </div>
-
-      {/* Buttons */}
-      {/* <div className=" w-[236px] h-[56px] left-8 top-[164px]">
-        <button className="w-full h-full bg-[#00A9A9] rounded-[30px] text-center text-white font-bold">
-          Connect Wallet
-        </button>
-      </div> */}
-      {/* <div className=" w-[236px] h-[56px] left-8 top-[230px]">
-        <button className="w-full h-full bg-[#00A9A9] rounded-[30px] text-center text-white font-bold">
-          Referral
-        </button>
-      </div> */}
-
-      {/* Icons placeholders */}
-      {/* <div
-        className=" left-24 top-36 w-8 h-8 bg-cover bg-center"
-        style={{ backgroundImage: "url('/eth.png')" }}
-      />
-      <div
-        className=" left-64 top-36 w-8 h-8 bg-cover bg-center"
-        style={{ backgroundImage: "url('/usdt.png')" }}
-      /> */}
     </div>
   );
 };
